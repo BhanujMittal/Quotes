@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/Quotes/style.css">
+</head>
+
+<body>
+    <h1 class="text-4xl">Quotes Of your Choice</h1>  
+    <div class="container">
+        <div class="items">
+            <button id="previous" type="button" class="hidden">Previous</button>
+            <div id="content" class="item text-center"></div>
+            <button id="nextSuccess" type="button" class="hidden">Next Success</button>
+            <button id="nextLove" type="button" class="hidden">Next Love</button>
+            <button id="nextSad" type="button" class="hidden">Next Sad</button>
+        </div>
+        <div class="buttons">
+            <button class="quote-type" id="success" type="button">Success</button>
+            <button class="quote-type" id="love" type="button">Love</button>
+            <button class="quote-type" id="sad" type="button">Sad</button>
+        </div>
+        <button id="reset" type="reset">Reset</button>
+    </div>
+    <div></div>
+    <script src="/Quotes/script.js"></script>
+</body>
+
+</html>
